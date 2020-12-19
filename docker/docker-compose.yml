@@ -1,0 +1,11 @@
+version: '3.2'
+services:
+  flask:
+    build: .
+    container_name: m1z0r3_ctf_flask
+    restart: always
+    volumes:
+      - ../app:/usr/local/src/work
+    ports:
+      - 55000:5000
+    tty: true
