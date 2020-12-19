@@ -7,5 +7,5 @@ services:
     volumes:
       - ../app:/usr/local/src/work
     ports:
-      - 55000:5000
+      - 5555:5000
     tty: true
