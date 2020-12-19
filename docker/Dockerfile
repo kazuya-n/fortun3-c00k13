@@ -17,7 +17,7 @@ RUN apt-get install -y sudo
 # Flaskのインストール
 RUN pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org flask
 
-RUN echo 'm1z0r3{fl4sk_15_mag1c}' > /flag.txt
+RUN echo 'm1z0r3{fl4sk_15_pan1c}' > /flag.txt
 RUN chown root:root /flag.txt
 RUN chmod 600 /flag.txt
 RUN echo 'h1nt5 are first f1ag...' > /flog.txt
